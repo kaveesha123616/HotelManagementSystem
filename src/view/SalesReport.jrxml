@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport name="SalesReport"
+              language="java"
+              pageWidth="595"
+              pageHeight="842"
+              columnWidth="535"
+              leftMargin="30"
+              rightMargin="30"
+              topMargin="30"
+              bottomMargin="30">
+
+    <property name="com.jaspersoft.studio.data.defaultdataadapter"
+              value="gift_accessories_shop_db"/>
+
+    <query language="sql"><![CDATA[
+        SELECT
+            s.sale_id,
+            s.sale_date,
+            p.product_name,
+            sd.quantity,
+            p.selling_price,
+            (sd.quantity * p.selling_price) AS total
+        FROM sales s
+        JOIN sale_details sd ON s.sale_id = sd.sale_id
+        JOIN products p ON sd.product_id = p.product_id
+        ORDER BY s.sale_id, s.sale_date
+    ]]></query>
+
+    <field name="sale_id" class="java.lang.Integer"/>
+    <field name="sale_date" class="java.sql.Date"/>
+    <field name="product_name" class="java.lang.String"/>
+    <field name="quantity" class="java.lang.Integer"/>
+    <field name="selling_price" class="java.math.BigDecimal"/>
+    <field name="total" class="java.math.BigDecimal"/>
+
+    <title height="60">
+        <element kind="staticText"
+                 x="0" y="10" width="535" height="35"
+                 fontName="Arial"
+                 fontSize="22.0"
+                 bold="true"
+                 hTextAlign="Center">
+            <text><![CDATA[Gift & Accessories Shop - Sales Report]]></text>
+        </element>
+    </title>
+
+    <columnHeader height="30">
+
+        <element kind="staticText" x="0" y="0" width="60" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Sale ID]]></text>
+        </element>
+
+        <element kind="staticText" x="60" y="0" width="80" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Sale Date]]></text>
+        </element>
+
+        <element kind="staticText" x="140" y="0" width="150" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Product]]></text>
+        </element>
+
+        <element kind="staticText" x="290" y="0" width="70" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Quantity]]></text>
+        </element>
+
+        <element kind="staticText" x="360" y="0" width="85" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Selling Price]]></text>
+        </element>
+
+        <element kind="staticText" x="445" y="0" width="90" height="30"
+                 fontName="Arial" fontSize="10.0" bold="true"
+                 backcolor="#DDDDDD" mode="Opaque"
+                 hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Total]]></text>
+        </element>
+
+    </columnHeader>
+
+    <detail>
+        <band height="25">
+
+            <element kind="textField"
+                     x="0" y="0" width="60" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Center" vTextAlign="Middle">
+                <expression><![CDATA[$F{sale_id}]]></expression>
+            </element>
+
+            <element kind="textField"
+                     x="60" y="0" width="80" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Center" vTextAlign="Middle">
+                <expression><![CDATA[$F{sale_date}]]></expression>
+            </element>
+
+            <element kind="textField"
+                     x="140" y="0" width="150" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$F{product_name}]]></expression>
+            </element>
+
+            <element kind="textField"
+                     x="290" y="0" width="70" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Center" vTextAlign="Middle">
+                <expression><![CDATA[$F{quantity}]]></expression>
+            </element>
+
+            <element kind="textField"
+                     x="360" y="0" width="85" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Right" vTextAlign="Middle">
+                <expression><![CDATA[$F{selling_price}]]></expression>
+            </element>
+
+            <element kind="textField"
+                     x="445" y="0" width="90" height="25"
+                     fontName="Arial" fontSize="9.0"
+                     hTextAlign="Right" vTextAlign="Middle">
+                <expression><![CDATA[$F{total}]]></expression>
+            </element>
+
+        </band>
+    </detail>
+
+    <pageFooter height="25">
+        <element kind="staticText"
+                 x="0" y="0" width="535" height="20"
+                 fontName="Arial" fontSize="8.0"
+                 hTextAlign="Center">
+            <text><![CDATA[Gift & Accessories Shop]]></text>
+        </element>
+    </pageFooter>
+
+</jasperReport>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/CustomerForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/CustomerDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/service/CustomerService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Customer.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/PaymentForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Payment.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/PaymentDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/service/PaymentService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/DashboardForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/EmployeeForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/LoginForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/Main.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/exception/InvalidAmountException.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/ProductForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Product.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/ProductDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/database/DBConnection.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/SupplierForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Supplier.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/SupplierDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/SalesForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Sale.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/SaleDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/CategoriesForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Category.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/CategoryDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/PurchasesForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/Purchase.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/PurchaseDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/service/ProductService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/SaleDetailsForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/SaleDetail.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/SaleDetailDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/service/SaleDetailService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/view/PurchaseDetailsForm.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/model/PurchaseDetail.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/dao/PurchaseDetailDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/HotelManagementSystem/src/service/PurchaseDetailService.java</file>
+        </group>
+    </open-files>
+</project-private>
